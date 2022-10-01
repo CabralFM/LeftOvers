@@ -1,0 +1,174 @@
+.container .search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search {
+  margin-top: 1em;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  border-radius: 60px;
+  padding: 10px 20px;
+  background-color: gray;
+  margin-bottom: 10%;
+}
+
+.search input {
+  background-color: transparent;
+  flex: 1;
+  border: 0;
+  outline: none;
+  color: white;
+}
+
+::placeholder {
+  color: black;
+}
+
+img {
+  width: 100%;
+  height: 95%;
+}
+
+div .card-body {
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-group {
+  margin-top: 1em;
+  margin-bottom: 3%;
+}
+
+.card-group .bi-arrow-left-circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.bi.bi-arrow-left-circle {
+  font-size: 2em;
+}
+
+.bi.bi-arrow-right-circle {
+  font-size: 2em;
+}
+
+.card-group .bi-arrow-right-circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.search > button {
+  border-radius: 30px;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+}
+
+body {
+  margin-top: 10%; /* Add a top margin to avoid content overlay */
+  background-color: lightgray;
+}
+
+h1 {
+  font-family: cursive;
+}
+
+#logo {
+  height: 30em;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+p {
+  font-size: larger;
+}
+
+#descricao {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+a:link {
+  text-decoration: none;
+  color: black;
+}
+
+a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: none;
+  color: black;
+}
+
+a {
+  font-family: cursive;
+}
+
+#LeftOvers {
+  color: white;
+}
+
+#navbarDarkDropdownMenuLink {
+  color: lightgrey;
+}
+
+#login {
+  margin-top: 10%;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+#signin {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#signin > .btn {
+  background-color: orange;
+}
+
+#forgotpw {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.TuasReceitas {
+  margin-top: 1em;
+  margin-left: 2%;
+}
+
+#ing1 {
+  padding: 5%;
+}
+
+#ing2 {
+  padding: 5%;
+}
+
+#ing3 {
+  padding: 5%;
+}
